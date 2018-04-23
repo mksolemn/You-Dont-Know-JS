@@ -51,7 +51,7 @@ The return value from the `typeof` operator is always one of six (seven as of ES
 
 Notice how in this snippet the `a` variable holds every different type of value, and that despite appearances, `typeof a` is not asking for the "type of `a`", but rather for the "type of the value currently in `a`." Only values have types in JavaScript; variables are just simple containers for those values.
 
-`typeof null` is an interesting case, because it errantly returns `"object"`, when you'd expect it to return `"null"`.
+`typeof null` is an interesting case, because it errantly returns `"object"`, when you'd expect it to return `"null"`. {MK note}
 
 **Warning:** This is a long-standing bug in JS, but one that is likely never going to be fixed. Too much code on the Web relies on the bug and thus fixing it would cause a lot more bugs!
 
